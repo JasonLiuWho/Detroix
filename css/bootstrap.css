@@ -1,0 +1,150 @@
+:root {
+    --blue: #131c29;
+    --orange: #ff8901;
+    --bg: #f2f3f5;
+    --btn: #213349;;
+    --date1: #be8442;
+    --date2: #bc6142;
+    --date3: #bd425e;
+    --bottomsec: #0b1016;
+    --font: 'Oswald', sans-serif;
+    --grad: radial-gradient(
+        at top center,
+        #37577d,
+        var(--blue) 40%
+    );
+}
+
+* {box-sizing: border-box;}
+
+.sectionTop-header {
+    padding: 10px;
+    height: 50px;
+    background-color: var(--blue);
+}
+
+.nav-link {
+    color: var(--bg);
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: var(--btn);
+    border: 1px solid black;
+}
+
+.nav-link:hover {
+    background-color: orange;
+}
+
+.th-link {
+    color: gray;
+}
+
+.th-link1 {
+    color: gray;
+    border-right: 1px solid gray;
+    padding: 5px;
+}
+
+.th-link1:last-child {
+    border: none;
+}
+
+.more-btn {
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    color: var(--bg);
+    background-color: var(--btn);
+}
+
+.more-btn:hover {
+    background-color: orange;
+}
+
+.sliders {
+    height: 30px;
+    width: 83px;
+}
+
+.slider {
+    margin-right: 2%;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    /* border: 1px solid black; */
+}
+
+.slider:hover {
+    background-color: orange;
+}
+
+.top-section {
+    background-color: var(--blue);
+    background-image: var(--grad);
+}
+
+.bottom-section {
+    height: 50px;
+    background-color: var(--bottomsec);
+}
+
+.footer-h2 {
+    color: var(--bg);
+}
+
+.services-link {
+    color: var(--bg);
+}
+
+.services-item {
+    list-style-image: url("../media/cog.png");
+}
+
+.opp-item {
+    color: var(--bg);
+}
+
+.opp-list {
+    list-style-image: url("../media/chat.png");
+}
+
+.news-item {
+    color: var(--bg);
+}
+
+.news-block {
+    padding-left: 10px;
+    color: var(--bg);
+}
+
+#date1 {
+    height: 80px;
+    width: 80px;
+    background-color: var(--date1);
+    border-radius: 5px;
+}
+
+#date2 {
+    height: 80px;
+    width: 80px;
+    background-color: var(--date2);
+    border-radius: 5px;
+}
+
+#date3 {
+    height: 80px;
+    width: 80px;
+    background-color: var(--date3);
+    border-radius: 5px;
+}
+
+.date-div {
+    float: left;
+}
+
+.day-span, .month-span {
+    text-align: center;
+    display: block;
+}
+
